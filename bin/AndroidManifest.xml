@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tpcstld.twozerogame">
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="21" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_2048"
+        android:label="@string/app_name"
+       >
+      
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar" 
+            android:screenOrientation="portrait">
+            
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
